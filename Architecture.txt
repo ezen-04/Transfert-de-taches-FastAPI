@@ -1,0 +1,40 @@
+source/
+│
+├──app/
+│   │
+│   ├── core/
+│   │   ├── celery_app.py
+│   │   ├── security.py
+│   │   └── config.py
+│   │
+│   ├── db/
+│   │   ├── article_data.db
+│   │   ├── base.py
+│   │   └── session.py
+│   │
+│   ├── models/
+│   │   ├── recu.py
+│   │   └── ajoute.py
+│   │
+│   ├── schemas/
+│   │	├── ajoute.py
+│   │   └── recu.py
+│   │
+│   ├── repositories/
+│   │   ├── ajoute_repository.py
+│   │   └── recu_repository.py
+│   │
+│   ├── services/
+│   │   ├── parser.py
+│   │   └── openclaw_service.py
+│   │
+│   ├── workers/
+│   │   └── tasks.py
+│   │
+│   └── api/
+│       └── routes/
+│  	    ├── ajoutes.py
+│           └── recus.py
+│
+└── main.py
+
