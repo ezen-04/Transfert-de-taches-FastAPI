@@ -23,7 +23,7 @@ source/
 │   │   └── ajoute.py
 │   │
 │   ├── schemas/
-│   │	├── ajoute.py
+│   │	  ├── ajoute.py
 │   │   └── recu.py
 │   │
 │   ├── repositories/
@@ -38,8 +38,8 @@ source/
 │   │   └── tasks.py
 │   │
 │   └── api/
-│       └── routes/
-│  	    ├── ajoutes.py
+│       ├── routes/
+│  	    └── ajoutes.py
 │           └── recus.py
 │
 └── main.py
