@@ -48,8 +48,8 @@ source/
 ## Lancer les services
 
 Suivre les étapes suivantes dans l'ordre :
--  1. **Redis**: Exécuter cette commande dans le terminal  `redis-server`.
+1. **Redis**: Exécuter cette commande dans le terminal  `redis-server`.
 
--  2. **API** : Exécuter la commande suivante dans le terminal `python main.py` ou `python3 main.py` sur Linux.
+2. **API** : Exécuter la commande suivante dans le terminal `python main.py` ou `python3 main.py` sur Linux.
 
--  3. **Worker Celery**: Exécuter la commande suivante dans le terminal `celery -A app.core.celery_app.celery_app worker --loglevel=info`.
+3. **Worker Celery**: Exécuter la commande suivante dans le terminal `celery -A app.core.celery_app.celery_app worker --loglevel=info`.
